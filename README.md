@@ -6,7 +6,7 @@ This will be a landing page for H&VTest enterprise
 # The web domain is:
     hvtest.cl
 
-# These sectios will be:
+# These are going to be the pages:  
     Inicio
     Nosotros
     Servicios
