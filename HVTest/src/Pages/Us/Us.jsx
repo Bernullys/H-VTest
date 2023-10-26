@@ -1,3 +1,5 @@
+import "./Us.css"
+
 const Us = () => {
     return (
         <>
