@@ -1,0 +1,61 @@
+.logo__hvt--main {
+    height: 124px;
+}
+
+.a-logo {
+    height: 100%;
+}
+
+.header__nav--container {
+    width: 100%;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--sm);
+    color: black;
+    font-weight: bold;
+    background: var(--colorGray1);
+
+}
+
+.header__nav__ul--center {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header__nav__ul--center li a {
+    text-decoration: none;
+    padding: 30px 0 30px;
+    color: var(--color10);
+    margin-right: 24px;
+}
+
+.header__nav__ul--center li a:hover {
+    background-color: var(--colorGray1);
+    color: var(--color6);
+}
+
+.header__nav__ul--right {
+    width: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon__container {
+    color: var(--color10);
+}
+
+.icon__container:hover {
+    transform: translateY(-8px) scale(1.2);
+    transition: 0.3s ease-in-out;
+    color: var(--color6);
+}
