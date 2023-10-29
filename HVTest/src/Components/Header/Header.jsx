@@ -4,6 +4,9 @@ import "./Header.css";
 
 
 const Header = () => {
+
+    const activePage = "active__page"
+
     return (
         <header>
             <nav className="header__nav--container">
@@ -14,30 +17,54 @@ const Header = () => {
 
                 <ul className="header__nav__ul--center">
                     <li>
-                        <NavLink to="/">Inicio</NavLink>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Inicio
+                            </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/nosotros">Nosotros</NavLink>
+                        <NavLink
+                            to="/nosotros"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Nosotros
+                            </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/servicios">Servicios</NavLink>
+                        <NavLink
+                            to="/servicios"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Servicios
+                            </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/proyectos">Proyectos</NavLink>
+                        <NavLink
+                            to="/proyectos"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Proyectos
+                            </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/cotiza">Cotiza</NavLink>
+                        <NavLink
+                            to="/cotiza"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Cotiza
+                            </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contacto">Contacto</NavLink>
+                        <NavLink
+                            to="/contacto"
+                            className={({ isActive }) => isActive ? activePage : undefined}>
+                                Contacto
+                            </NavLink>
                     </li>
                 </ul>
 
                 <ul className="header__nav__ul--right">
-                    <a className="icon__container" href="" target="_blank" rel="noopener noreferrer">
+                    <a className="icon__container" href="https://www.instagram.com/hvtest.cl/" target="_blank" rel="noopener noreferrer">
                         <BsInstagram className="insta-logo"/>
                     </a>
-                    <a className="icon__container" href="" target="_blank" rel="noopener noreferrer">
+                    <a className="icon__container" href="https://www.linkedin.com/company/hv-test" target="_blank" rel="noopener noreferrer">
                         <BsLinkedin className="linke-logo"/>
                     </a>
                     <a className="icon__container" href="" target="_blank" rel="noopener noreferrer">
