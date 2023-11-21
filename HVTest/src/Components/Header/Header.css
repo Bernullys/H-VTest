@@ -14,9 +14,9 @@
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
     font-size: var(--sm);
-    color: black;
     font-weight: bold;
     background: var(--colorGray1);
+
 
 }
 

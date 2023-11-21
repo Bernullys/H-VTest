@@ -2,7 +2,7 @@ import "./Layout.css"
 
 const Layout = ({ children }) => {
     return (
-        <section>
+        <section className="Layout">
             { children }
         </section>
     )

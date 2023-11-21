@@ -1,0 +1,70 @@
+.home__main--container {
+    height:calc(70vh - 124px);
+    background-image: url("../../assets/torresElectricasI.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.home__main--title {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    z-index: 2;
+    color: var(--color1);
+    margin: 0;
+    padding: 0;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.home__main-buttons-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 60%;
+}
+
+.home__main-buttons-container button {
+    height: 56px;
+    width: 196px;
+    margin: 0px 96px 0px 96px;
+    font-size: var(--sm);
+    font-weight: bold;
+    color: var(--color10);
+    background-color: var(--color1);
+    border: solid 1px var(--color1);
+    border-radius: 16px;
+    
+}
+/*//////////////////////////////////////////////////////////////*/
+
+.home__bottom {
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorGray1);
+    height: 248px;
+}
+
+.home__botton--article {
+    width: 650px;
+    text-align: center;
+
+}
+
+.home__botton--title {
+    font-size: xx-large;
+    color: var(--color10);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home__botton--paragraph {
+    color: var(--color10);
+    font-weight: 300;
+    line-height: 1.8;
+}

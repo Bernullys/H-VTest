@@ -6,6 +6,7 @@ import Services from '../Services/Services'
 import Quotes from '../Quotes/Quotes'
 import Contact from '../Contact/Contact'
 import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 import './App.css'
 
 const AppRoutes = () => {
@@ -28,6 +29,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <AppRoutes />
+      <Footer />
     </BrowserRouter>
   )
 }

@@ -12,7 +12,7 @@ const Header = () => {
             <nav className="header__nav--container">
 
                 <NavLink className="a-logo" to="/">
-                    <img className="logo__hvt--main" src="../../../src/assets/logo-HVT-rc1-sin-fondo.png" alt="HVTest-company-logo" />
+                    <img className="logo__hvt--main" src="../../../src/assets/logoHVTrc1sinfondo.png" alt="HVTest-company-logo" />
                 </NavLink>
 
                 <ul className="header__nav__ul--center">
