@@ -5,8 +5,6 @@ import "./Footer.css";
 
 const Footer = () => {
 
-    const activePage = "active__page"
-
     return (
         <footer>
             <nav className="footer__nav--container">
@@ -110,18 +108,18 @@ const Footer = () => {
 
                     <h3>Nuestras redes</h3>
 
-                    <a href="https://www.instagram.com/hvtest.cl/" target="_blank" rel="noopener noreferrer">
+                    <a className="footer__solcial__logo" href="https://www.instagram.com/hvtest.cl/" target="_blank" rel="noopener noreferrer">
                         <BsInstagram className="insta-logo"/>
                     </a>
-                    <a href="https://www.linkedin.com/company/hv-test" target="_blank" rel="noopener noreferrer">
+                    <a className="footer__solcial__logo" href="https://www.linkedin.com/company/hv-test" target="_blank" rel="noopener noreferrer">
                         <BsLinkedin className="linke-logo"/>
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a className="footer__solcial__logo" href="" target="_blank" rel="noopener noreferrer">
                         <BsWhatsapp className="whatsapp-logo"/>
                     </a>
                 </ul>
 
-                <NavLink className="a-logo" to="/">
+                <NavLink className="a-logo-spa" to="/">
                     <img className="logo__hvt--main" src="../../../src/assets/LogoHVTest&diagnosticsSpa.png" alt="HVTest-company-logo" />
                 </NavLink>
 

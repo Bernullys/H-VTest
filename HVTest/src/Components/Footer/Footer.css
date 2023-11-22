@@ -2,37 +2,45 @@
     height: 124px;
 }
 
-.a-logo {
-    height: 100%;
+.a-logo-spa {
+    position: relative;
+    height: 90%;
 }
 
 .footer__nav--container {
     width: 100%;
-    height: 248px;
+    height: 196px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
-    font-size: var(--sm);
+    font-size: var(--ssm);
     font-weight: 400;
     background: var(--colorGray1);
-    border-top: solid 1px;
+    border-top: solid 1px var(--color10);
 }
 
 .footer__nav__ul {
-    width: 40%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
-.footer__nav__ul--center li a {
+.footer__nav__ul li a {
     text-decoration: none;
-    padding: 50px 0 50px;
+    font-family: 'Roboto', sans-serif;
     color: var(--color10);
-    margin-right: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.footer__solcial__logo {
+    margin-right: 36px;
+    color: var(--color10);
+}
+
+h3 {
+    font-weight: 500;
+    color: var(--color10);
 }
