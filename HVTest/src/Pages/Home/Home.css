@@ -5,15 +5,17 @@
     background-position: top;
     background-repeat: no-repeat;
     margin: 0;
-    /* display: flex;
-    flex-direction: column; */
+}
 
+.main--title--container {
+    display: flex;
+    justify-content: center;
 }
 
 .home__main--title {
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 50%;
+    top: 25%;
     z-index: 2;
     color: var(--color1);
     margin: 0;
@@ -45,9 +47,10 @@
 
 .home__bottom {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--colorGray1);
-    height: 248px;
 }
 
 .home__botton--article {
