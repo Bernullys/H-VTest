@@ -21,55 +21,45 @@ const Header = () => {
                             to="/"
                             className={({ isActive }) => isActive ? activePage : undefined}>
                                 Inicio
-                            </NavLink>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink
                             to="/nosotros"
                             className={({ isActive }) => isActive ? activePage : undefined}>
                                 Nosotros
-                            </NavLink>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink
                             to="/servicios"
                             className={({ isActive }) => isActive ? activePage : undefined}>
                                 Servicios
-                            </NavLink>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink
                             to="/proyectos"
                             className={({ isActive }) => isActive ? activePage : undefined}>
                                 Proyectos
-                            </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/cotiza"
-                            className={({ isActive }) => isActive ? activePage : undefined}>
-                                Cotiza
-                            </NavLink>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink
                             to="/contacto"
                             className={({ isActive }) => isActive ? activePage : undefined}>
                                 Contacto
-                            </NavLink>
+                        </NavLink>
                     </li>
                 </ul>
-
-                <ul className="header__nav__ul--right">
-                    <a className="icon__container" href="https://www.instagram.com/hvtest.cl/" target="_blank" rel="noopener noreferrer">
-                        <BsInstagram className="insta-logo"/>
-                    </a>
-                    <a className="icon__container" href="https://www.linkedin.com/company/hv-test" target="_blank" rel="noopener noreferrer">
-                        <BsLinkedin className="linke-logo"/>
-                    </a>
-                    <a className="icon__container" href="" target="_blank" rel="noopener noreferrer">
-                        <BsWhatsapp className="whatsapp-logo"/>
-                    </a>
+                <ul className="cotiza__header__button__container">
+                    <li>
+                        <NavLink
+                            to="/cotiza"
+                            id="cotiza__header__button">
+                                Cotiza con nosotros
+                        </NavLink>
+                    </li>
                 </ul>
 
             </nav>
