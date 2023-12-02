@@ -27,15 +27,17 @@ const Home = () => {
               </section>
             </section>
           </section>
-          <section className="home__bottom">
-            <article className="home__botton--article">
+            <section className="home__bottom">
               <h2 className="home__botton--title">Bienvenidos a HVTest</h2>
-              <p className="home__botton--paragraph">Somos una empresa de servicios electricos conformada por profesionales de ingenieria, especialistas en el area de baja, media y alta tension, orientados a satifaser las exigencias de nuestros clientes.</p>
-             </article>
-             <article className="home__botton--article">
-              <h2 className="home__botton--title">¿En que te podemos ayudar?</h2>
-             </article>
-          </section>
+              <section className="home__botton--paragraph--container">
+                <p className="home__botton--paragraph">Somos una empresa de servicios electricos conformada por profesionales de ingenieria, especialistas en el area de baja, media y alta tension, orientados a satifaser las exigencias de nuestros clientes.</p>
+              </section>
+              <section className="home__botton--paragraph--container">
+                <button className="home__bottom--button">Saber más</button>
+              </section>
+
+            </section>
+
           <section>
             <GenericCardServices />
           </section>

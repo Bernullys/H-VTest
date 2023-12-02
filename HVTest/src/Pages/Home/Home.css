@@ -89,30 +89,73 @@
 /*//////////////////////////////////////////////////////////////*/
 
 .home__bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: var(--colorGray1);
-}
-
-.home__botton--article {
-    width: 650px;
-    text-align: center;
-
+    background-color: #FFFFFF;
+    height: 411px;
 }
 
 .home__botton--title {
-    font-size: xx-large;
-    color: var(--color10);
-    font-weight: bold;
-    margin-bottom: 20px;
+    position: relative;
+    top: 75px;
+    bottom: 20px;
+    margin: 0;
+
+    color: #3D3D3D;
+    text-align: center;
+    font-family: Bosch Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home__botton--paragraph--container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .home__botton--paragraph {
-    color: var(--color10);
-    font-weight: 300;
-    line-height: 1.8;
+    position: relative;
+    top: 95px;
+    width: 811px;
+    height: 125px;
+
+    color: #3D3D3D;
+    text-align: center;
+    font-family: Bosch Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.home__bottom--button {
+    display: flex;
+    width: 189px;
+    padding: 5.011px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.011px;
+    border-radius: 88.809px;
+    border: 1px solid #18CAFF;
+
+    color: #18CAFF;
+    text-align: center;
+    font-family: Bosch Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: transparent;
+    position:relative;
+    top: 26px;
+    cursor: pointer;
+
+
+
 }
 
 /*/////////////////////////////////////////////////////////////////////////*/
