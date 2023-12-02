@@ -52,7 +52,10 @@
 .active__page {
     position: relative;
     display: inline-block;    
-    color: #18CAFF;
+}
+
+.active__page:visited {
+    color: #18CAFF;  
 }
 
 .active__page::after {
@@ -64,6 +67,7 @@
     height: 10px;
     background-color: #18CAFF;
     border-radius: 8px;
+
 
 }
 

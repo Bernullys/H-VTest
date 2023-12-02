@@ -1,5 +1,5 @@
 .home__main--container {
-    height:calc(70vh - 124px);
+    height: 555px;
     background-image: url("../../assets/torresElectricasI.png");
     background-size: cover;
     background-position: top;
@@ -14,35 +14,78 @@
 
 .home__main--title {
     position: absolute;
-    text-align: center;
-    top: 25%;
+    top: 265px;
     z-index: 2;
-    color: var(--color1);
     margin: 0;
     padding: 0;
-    font-size: 56px;
-    font-weight: bold;
+    
+    color: #fff;
+    text-align: center;
+    font-family: Bosh Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.styling__word {
+    color: #18CAFF;
 }
 
 .home__main-buttons-container {
     position: relative;
     display: flex;
-    justify-content: center;
-    top: 60%;
+    justify-content: space-between;
+    width: 400px;
+    top: 326px;
 }
 
-.home__main-buttons-container button {
-    height: 56px;
-    width: 196px;
-    margin: 0px 96px 0px 96px;
-    font-size: var(--sm);
-    font-weight: bold;
-    color: var(--color10);
-    background-color: var(--color1);
-    border: solid 1px var(--color1);
-    border-radius: 16px;
-    
+.home__main--button--left {
+    display: flex;
+    width: 189px;
+    height: 55px;
+    padding: 5.011px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.011px;
+    border-radius: 88.809px;
+    background: #18CAFF;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Bosch Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border: none;
+    cursor: pointer;
 }
+
+.home__main--button--rigth {
+    display: flex;
+    width: 189px;
+    height: 55px;
+    padding: 5.011px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.011px;
+    border-radius: 88.809px;
+    border: 0.888px solid #FFF;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Bosch Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: transparent;
+    cursor: pointer;
+}
+
 /*//////////////////////////////////////////////////////////////*/
 
 .home__bottom {
@@ -70,4 +113,32 @@
     color: var(--color10);
     font-weight: 300;
     line-height: 1.8;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+.home__social__logos__container {
+    position: absolute;
+    top: 130px;
+    right: 106px;
+}
+
+.footer__solcial__logo {
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
+
+.insta-logo,
+.linke-logo,
+.whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.insta-logo,
+.linke-logo {
+    margin-right: 30px;
 }
