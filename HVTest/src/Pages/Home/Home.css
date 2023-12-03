@@ -1,11 +1,11 @@
 .home__main--container {
     height: 555px;
-    background-image: url("../../assets/torresElectricasI.png");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(66, 66, 66, 0.10) 45.31%, rgba(255, 255, 255, 0.00) 100%), url("../../assets/torresElectricasI.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     margin: 0;
-}
+} 
 
 .main--title--container {
     display: flex;
