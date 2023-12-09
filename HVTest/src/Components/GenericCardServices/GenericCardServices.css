@@ -3,6 +3,7 @@
     height: 779px;
     background: rgba(45, 187, 229, 0.10);
     flex-shrink: 0;
+    position: relative;
 
 }
 
@@ -12,6 +13,7 @@
     align-items: center;
     position: relative;
     top: 100px;
+    flex-wrap: nowrap;
 
 }
 
@@ -26,6 +28,25 @@
 
 .card--inner--container:hover {
     background: #18caff;
+    color: #FFF;
+}
+
+.card--inner--container:hover p {
+    color: #FFF;
+}
+
+.card--inner--container--selected {
+    width: 292px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 14.747px;
+    background: #18caff;
+    margin: 0px 10px 0px 10px;
+    color: #FFF;
+}
+
+.card--inner--container--selected p {
+    color: #FFF;
 }
 
 .card__main__title {
@@ -58,7 +79,7 @@
     font-weight: 400;
     line-height: normal;
     margin: auto 35px auto 35px;
-    text-align: justify;
+    text-align: center;
 }
 
 .card__service__button {
@@ -76,6 +97,35 @@
     margin: 28.7px 84px auto 84px;
     cursor: pointer;
 }
+
+.card__arrows__container {
+    position: absolute;
+    bottom: 103px;
+    right: 106px  ;
+}
+
+.card__arrow_rigth,
+.card__arrow_left {
+    margin-left: 24px;
+    background: #18caff;
+    color: #FFF;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.card__arrows_end {
+    margin-left: 24px;
+    background: #94e6ff80;
+    color: #FFF;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
 
 /* From here onwards is the section if some projects for the home page */
 
@@ -189,6 +239,10 @@
     width: 492px;
     height: 0px;
     z-index: 5;
+}
+
+a {
+    text-decoration: none;
 }
 
 .project__descripcion__main__section_right h3,

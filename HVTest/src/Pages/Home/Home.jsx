@@ -1,5 +1,6 @@
+import React from "react"
 import { NavLink } from "react-router-dom"
-import { BsInstagram, BsLinkedin, BsWhatsapp} from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsWhatsapp} from "react-icons/bs"
 import Layout from "../../Components/Layout/Layout"
 import GenericCardServices from "../../Components/GenericCardServices/GenericCardServices"
 import "./Home.css"
@@ -22,8 +23,12 @@ const Home = () => {
             <section className="main--title--container">
               <h1 className="home__main--title">Servicios <b className="styling__word">de Ingeniería</b> <br></br> de Calidad para la Industria</h1>
               <section className="home__main-buttons-container">
-                <button className="home__main--button--left">Contactanos</button>
-                <button className="home__main--button--rigth">Ver Proyectos</button>
+                <NavLink to="./contacto">
+                  <button className="home__main--button--left" >Contactanos</button>
+                </NavLink>
+                <NavLink to="./proyectos">
+                  <button className="home__main--button--rigth">Ver Proyectos</button>
+                </NavLink>
               </section>
             </section>
           </section>
@@ -33,9 +38,10 @@ const Home = () => {
                 <p className="home__botton--paragraph">Somos una empresa de servicios electricos conformada por profesionales de ingenieria, especialistas en el area de baja, media y alta tension, orientados a satifaser las exigencias de nuestros clientes.</p>
               </section>
               <section className="home__botton--paragraph--container">
-                <button className="home__bottom--button">Saber más</button>
+                <NavLink to="./nosotros">
+                  <button className="home__bottom--button">Saber más</button>
+                </NavLink>
               </section>
-
             </section>
 
           <section>

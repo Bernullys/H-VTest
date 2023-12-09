@@ -1,6 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { BsInstagram, BsLinkedin, BsWhatsapp} from "react-icons/bs";
-import "./Header.css";
+import { NavLink } from "react-router-dom"
+import "./Header.css"
 
 
 const Header = () => {

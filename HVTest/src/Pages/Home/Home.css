@@ -40,6 +40,10 @@
     top: 326px;
 }
 
+.home__main-buttons-container a {
+    text-decoration: none;
+}
+
 .home__main--button--left {
     display: flex;
     width: 189px;
@@ -109,10 +113,14 @@
     line-height: normal;
 }
 
-.home__botton--paragraph--container{
+.home__botton--paragraph--container {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.home__botton--paragraph--container a {
+    text-decoration: none;
 }
 
 .home__botton--paragraph {
