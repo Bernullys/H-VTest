@@ -3,10 +3,6 @@
 
 }
 
-.a-logo-spa {
-
-}
-
 .footer__nav--container {
     display: flex;
     justify-content: flex-start;
@@ -51,12 +47,14 @@
     color: #FFFF;
     margin: 0 0 10px 0;
     font-size: 16px;
+    font-family: "futuraLtBt";
 }
 
 .footer__nav__ul li {
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+    font-family: "futuraLtBt";
     line-height: 16.94px;
     
     
@@ -94,6 +92,7 @@
     list-style: none;
     color: #FFF;
     font-size: 14px;
+    font-family: "futuraLtBt";
     padding: 30px 0 0 0;
     margin: 0;
 }

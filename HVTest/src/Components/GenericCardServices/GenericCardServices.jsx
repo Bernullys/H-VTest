@@ -70,10 +70,10 @@ const GenericCardServices = () => {
                     <h2 className="projects_title">Proyectos</h2>
                 </section>
                 <section className="grid__projects_images">
-                    <article className="left__project__image">
-                        <img src="../../../src/assets/izq-1.jpg" alt="" />
-                        <section  className="project__descripcion__main__container_right">
-                            <section className="project__descripcion__main__section_right">
+                    <article className="left__project__article">
+                        <img src="../../../src/assets/dere-3.jpg" alt="" />
+                        <section  className="project__descripcion__main__container_left">
+                            <section className="project__descripcion__main__section_left">
                                 <h3>NOMBRE DEL CLIENTE</h3>
                                 <p>Breve descripción del proyecto Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque . . .</p>
                                 <NavLink to="./contacto">
@@ -82,28 +82,32 @@ const GenericCardServices = () => {
                             </section>
                         </section>
                     </article>
-                    <article className="right__project__images">
-                        <img src="../../../src/assets/dere-3.jpg" alt="" />
-                        <section className="project__descripcion__main__container_left">
-                            <section className="project__descripcion__main__section_left">
-                                <h3>NOMBRE DEL CLIENTE2</h3>
-                                <p>Breve descripción del proyecto Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque . . .</p>
-                                <NavLink to="./contacto">
-                                    <button>Contactanos</button>
-                                </NavLink>
+                    <section className="right__project__images--container">
+                        <article className="right__project__article-one">
+                            <img src="../../../src/assets/dere-3.jpg" alt="" />
+                            <section className="project__descripcion__main__container_right">
+                                <section className="project__descripcion__main__section_right">
+                                    <h3>NOMBRE DEL CLIENTE2</h3>
+                                    <p>Breve descripción del proyecto Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque . . .</p>
+                                    <NavLink to="./contacto">
+                                        <button>Contactanos</button>
+                                    </NavLink>
+                                </section>
                             </section>
-                        </section>
-                        <img src="../../../src/assets/dere-2.jpg" alt="" />
-                        <section className="project__descripcion__main__container_left">
-                            <section className="project__descripcion__main__section_left">
-                                <h3>NOMBRE DEL CLIENTE2</h3>
-                                <p>Breve descripción del proyecto Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque . . .</p>
-                                <NavLink to="./contacto">
-                                    <button>Contactanos</button>
-                                </NavLink>
+                        </article>
+                        <article className="right__project__article-two">
+                            <img src="../../../src/assets/dere-3.jpg" alt=""/>
+                            <section className="project__descripcion__main__container_right">
+                                <section className="project__descripcion__main__section_right">
+                                    <h3>NOMBRE DEL CLIENTE3</h3>
+                                    <p>Breve descripción del proyecto Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque . . .</p>
+                                    <NavLink to="./contacto">
+                                        <button>Contactanos</button>
+                                    </NavLink>
+                                </section>
                             </section>
-                        </section>
-                    </article>
+                        </article>
+                    </section>
                 </section>
 
             </section>
