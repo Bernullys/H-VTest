@@ -1,5 +1,6 @@
 import Layout from "../../Components/Layout/Layout";
 import { BsInstagram, BsLinkedin, BsWhatsapp} from "react-icons/bs"
+import { GrTechnology } from "react-icons/gr"
 import "./Us.css"
 import PersonalCards from "./PersonalCards";
 
@@ -33,14 +34,14 @@ const Us = () => {
                         <BsWhatsapp className="whatsapp-logo"/>
                     </a>
                 </section>
-                <section className="us__top__section--image">
+                <section className="us__top__section--image--container">
                     <h1 className="us__top__section--heding">Excepteur <b className="styling__word">sint occaecat</b> <br />cupidatat non proident</h1>
                 </section>
             </section>
             <section className="us__middle__section--main--container">
                 <section className="us__middle__section--description--container">
-                    <h2>Conoce nuestro equipo</h2>
-                    <p>Estamos conformados por profesionales de alto grado de experiencia en el mercado eléctrico del país, presentes en faenas de importantes empresas del rubro eléctrico, especialistas en el diagnóstico, mantención, resolución de problemas y soluciones integrales en el ámbito eléctrico, industrial y de manufactura. Nuestro servicio profesional y técnico está comprometido en la entrega de un servicio de calidad con altos estándares de calidad y seguridad. </p>
+                    <h2 className="us__subtitle">Conoce nuestro equipo</h2>
+                    <p className="us__paragraph">Estamos conformados por profesionales de alto grado de experiencia en el mercado eléctrico del país, presentes en faenas de importantes empresas del rubro eléctrico, especialistas en el diagnóstico, mantención, resolución de problemas y soluciones integrales en el ámbito eléctrico, industrial y de manufactura. Nuestro servicio profesional y técnico está comprometido en la entrega de un servicio de calidad con altos estándares de calidad y seguridad. </p>
                 </section>
                 <section className="us__middle__section--cards--container">
                     {
@@ -55,6 +56,43 @@ const Us = () => {
                         ))
                     }
                 </section>
+            </section>
+            <section className="us__lower__section--main--container">
+                <section className="us__lower__section--container">
+                    <h2 className="us__subtitle">¿Por que trabajar con nosotros?</h2>
+                    <p className="us__paragraph">Estamos conformados por profesionales de alto grado de experiencia en el mercado eléctrico del país, presentes en faenas de importantes empresas del rubro eléctrico, especialistas en el diagnóstico, mantención, resolución de problemas y soluciones integrales en el ámbito eléctrico, industrial y de manufactura. Nuestro servicio profesional y técnico está comprometido en la entrega de un servicio de calidad con altos estándares de calidad y seguridad. </p>
+                </section>
+                <section className="us__lower__section__characteristics--main--container">
+                    <article>
+                        <GrTechnology className="us__lower__icon--one"/>
+                        <h2>caracteristica</h2>
+                        <ul>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <GrTechnology className="us__lower__icon--one"/>
+                        <h2>caracteristica</h2>
+                        <ul>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <GrTechnology className="us__lower__icon--one"/>
+                        <h2>caracteristica</h2>
+                        <ul>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                            <li>casasadad</li>
+                        </ul>
+                    </article>
+
+                </section>
+
             </section>
         </Layout>
     )
