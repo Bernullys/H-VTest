@@ -15,8 +15,8 @@ const AppRoutes = () => {
     { path: '/nosotros', element: <Us /> },
     { path: '/proyectos', element: <Projects /> },
     { path: '/servicios', element: <Services /> },
-    { path: '/cotiza', element: <Quotes /> },
-    { path: '/contacto', element: <Contact /> },
+
+    { path: '/contactanos', element: <Contact /> },
   ])
   return (
     routes

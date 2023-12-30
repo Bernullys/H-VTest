@@ -43,20 +43,13 @@ const Header = () => {
                                 Proyectos
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink
-                            to="/contacto"
-                            className={({ isActive }) => isActive ? activePage : undefined}>
-                                Contacto
-                        </NavLink>
-                    </li>
                 </ul>
                 <ul className="cotiza__header__button__container">
                     <li>
                         <NavLink
-                            to="/cotiza"
+                            to="/contactanos"
                             id="cotiza__header__button">
-                                Cotiza con nosotros
+                                Contactanos
                         </NavLink>
                     </li>
                 </ul>

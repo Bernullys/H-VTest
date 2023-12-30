@@ -64,6 +64,10 @@ select {
     line-height: normal;
 }
 
+input::after {
+    border-color: #18CAFF;
+}
+
 #message {
     height: 200px;
 }
