@@ -1,4 +1,5 @@
 import Layout from "../../Components/Layout/Layout"
+import { NavLink } from "react-router-dom"
 import "./Services.css"
 
 const Services = () => {
@@ -27,10 +28,9 @@ const Services = () => {
                     <section className="service__container">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title">PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS DE ALTA TENSIÓN</h2>
-                            <p className="service__container--article--paragraph">Nuestra empresa, comprometida con la integridad de la infraestructura eléctrica, 
-                                proporciona servicios especializados de pruebas eléctricas para este tipo 
-                                de instalaciones especiales.</p>
-                            <button className="service__container--article--button">Leer más</button>
+                            <NavLink className="service__container--article--button--container" to="/servicios/pruebas">
+                                <button className="service__container--article--button">Leer más</button>
+                            </NavLink>
                         </article>
                     </section>
                     <section className="service__container-2">
