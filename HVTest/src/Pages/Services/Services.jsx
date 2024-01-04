@@ -28,45 +28,41 @@ const Services = () => {
                     <section className="service__container">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title">PRUEBAS ELÉCTRICAS DE ACEPTACIÓN A EQUIPOS DE ALTA TENSIÓN</h2>
-                            <NavLink className="service__container--article--button--container" to="/servicios/pruebas">
-                                <button className="service__container--article--button">Leer más</button>
+                            <NavLink className="service__container--article--button--container--left" to="/servicios/pruebas">
+                                <button className="service__container--article--button--left">Ver más</button>
                             </NavLink>
                         </article>
                     </section>
                     <section className="service__container-2">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title-2">CONTROL Y PROTECCIONES ELÉCTRICAS</h2>
-                            <p className="service__container--article--paragraph-2">Especializados en el control de sistemas eléctricos, 
-                                nuestro equipo ofrece soluciones integrales, desde inspecciones técnicas en el sistema secundario de subestaciones 
-                                hasta auditorías en los sistemas de protección y medida.</p>
-                            <button className="service__container--article--button-2">Leer más</button>
+                            <NavLink className="service__container--article--button--container--right" to="/servicios/control">
+                                <button className="service__container--article--button--right">Ver más</button>
+                            </NavLink>
                         </article>
                     </section>
                     <section className="service__container-3">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title">MANTENIMIENTO Y PUESTA EN SERVICIO DE EQUIPOS ELÉCTRICOS</h2>
-                            <p className="service__container--article--paragraph">Una parte crucial de nuestro servicio se centra en el mantenimiento y 
-                                puesta en servicio de los equipos eléctricos instalados en Sistemas de Generación, Transmisión y Distribución eléctrica.</p>
-                            <button className="service__container--article--button">Leer más</button>
+                            <NavLink className="service__container--article--button--container--left" to="/servicios/mantenimiento">
+                                <button className="service__container--article--button--left">Ver más</button>
+                            </NavLink>
                         </article>
                     </section>
                     <section className="service__container-4">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title-2">ASESORÍA TÉCNICA</h2>
-                            <p className="service__container--article--paragraph-4">Contamos con personal de ingeniería especializado para ofrecer 
-                                servicios de asesoría profesional. Proporcionamos inspección técnica especializada y suministramos documentos, 
-                                procedimientos y/o protocolos necesarios a nuestros clientes para garantizar la operación y mantenimiento de sus 
-                                equipos eléctricos.</p>
-                            <button className="service__container--article--button-2">Leer más</button>
+                            <NavLink className="service__container--article--button--container--right" to="/servicios/asesoría">
+                                <button className="service__container--article--button--right">Ver más</button>
+                            </NavLink>
                         </article>
                     </section>
                     <section className="service__container-5">
                         <article className="service__container--article">
                             <h2 className="service__container--article--title">ARRIENDO EQUIPOS DE PRUEBAS ELÉCTRICAS</h2>
-                            <p className="service__container--article--paragraph-5">Con el objetivo de respaldar a nuestros clientes, en HVTest ofrecemos 
-                                el arriendo de equipos para realizar ensayos eléctricos en excelente estado de operación. Estos equipos se encuentran con 
-                                calibración y certificación vigente, garantizando así un servicio de la más alta calidad.</p>
-                            <button className="service__container--article--button">Leer más</button>
+                            <NavLink className="service__container--article--button--container--left" to="/servicios/arriendo">
+                                <button className="service__container--article--button--left">Ver más</button>
+                            </NavLink>
                         </article>
                     </section>
                     
