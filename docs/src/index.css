@@ -1,0 +1,12 @@
+@import url("../src/assets/fonts/fonts.css");
+
+:root {
+  font-family: "futuraLtBt";
+}
+
+body {
+  margin: 0;
+  font-family: "futuraLtBt";
+  
+}
+
