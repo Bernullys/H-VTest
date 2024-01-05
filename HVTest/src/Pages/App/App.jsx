@@ -1,4 +1,5 @@
-import { useRoutes, BrowserRouter } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { useRoutes, BrowserRouter, useLocation } from 'react-router-dom'
 import Home from '../Home/Home'
 import Us from '../Us/Us'
 import Projects from '../Projects/Projects'
@@ -12,6 +13,16 @@ import ServiceThree from '../Services/ServiceThree'
 import ServiceFour from '../Services/ServiceFour'
 import ServiceFive from '../Services/ServiceFive'
 import './App.css'
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
 
 const AppRoutes = () => {
   let routes = useRoutes ([
@@ -27,7 +38,10 @@ const AppRoutes = () => {
     { path: '/servicios/arriendo', element: <ServiceFive />},
   ])
   return (
-    routes
+    <>
+      <ScrollToTop  />
+      { routes }
+    </>
   )
 }
 

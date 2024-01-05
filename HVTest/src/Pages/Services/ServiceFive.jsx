@@ -11,12 +11,13 @@ const testGears = [
         conmutación más avanzada disponible en la actualidad. La principal diferencia entre estos modelos es la máxima
         corriente de prueba que se puede generar (100 A para RMO100G, 200 A para RMO200G y de hasta 800 A para
         RMO800G).`,
-        characteristics: `- Ligeros: de 8 a 11,5 kg /17.6 lbs a 25.4 lbs
-        - Potentes: de hasta 800 A CC
-        - Rango de medición 0 a 999,9 mΩ (de hasta 6 Ω)
-        - Mejor resolución 0,01 μΩ
-        - Precisión típica ± (0,1 % rdg + 0,1 % FS)
-        - Modos SINGLE / CONTIN / BSG / DTRtest`
+        characteristics: `Ligeros: de 8 a 11,5 kg /17.6 lbs a 25.4 lbs.
+        Potentes: de hasta 800 A CC.
+        Rango de medición 0 a 999,9 mΩ (de hasta 6 Ω).
+        Mejor resolución 0,01 μΩ.
+        Precisión típica ± (0,1 % rdg + 0,1 % FS).
+        Modos SINGLE / CONTIN / BSG / DTRtest.`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Micróhmetro 10 A",
@@ -29,15 +30,16 @@ const testGears = [
         uno de siete rangos posibles. Para aquellos usuarios que desean un mayor control sobre el proceso
         de medida, DLRO10X utiliza un sistema de menús controlado por un par de puntas de prueba
         bidireccionales, que permiten la selección manual de la corriente de prueba.`,
-        characteristics: `• Resultados precisos en menos de 3 segundos
-        - La inversión automática de corriente anula fuerzas electromotrices estacionarias
-        - Protegido por fusibles hasta 600 V
-        - Límite de potencia de 250mW (con anulación opcional) para evitar el calentamiento de la muestra
-        objeto de prueba
-        - Detecta automáticamente la condición de continuidad en conexiones de voltaje y corriente
-        - Advertencia visible de presencia de alto voltaje en terminales
-        - Advertencia visible de corriente en la muestra objeto de prueba
-        •Múltiples modos de funcionamiento incluyendo uno completamente automático`
+        characteristics: `Resultados precisos en menos de 3 segundos.
+        La inversión automática de corriente anula fuerzas electromotrices estacionarias.
+        Protegido por fusibles hasta 600 V.
+        Límite de potencia de 250mW (con anulación opcional) para evitar el calentamiento de la muestra
+        objeto de prueba.
+        Detecta automáticamente la condición de continuidad en conexiones de voltaje y corriente.
+        Advertencia visible de presencia de alto voltaje en terminales.
+        Advertencia visible de corriente en la muestra objeto de prueba.
+        Múltiples modos de funcionamiento incluyendo uno completamente automático.`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Medidor de aislamiento 10 kV",
@@ -56,7 +58,8 @@ const testGears = [
         pruebas de descarga dieléctrica (MIT1020/2)
         - Descarga de resultados mediante RS232 o USB.
         - Protección de ingreso a IP65
-        - Corriente de cortocircuito de 3 mA`
+        - Corriente de cortocircuito de 3 mA`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Medidor de relación de transformación TTR",
@@ -80,7 +83,8 @@ const testGears = [
         - Almacena hasta 10.000 resultados de pruebas
         - Se incluye el software DataView que permite configurar el instrumento, descargar las mediciones almacenadas e
         imprimir los resultados de las pruebas en formato de informe®
-        - La pantalla advierte de conexión incorrecta del cable, polaridad inversa, circuitos abiertos y cortocircuitos`
+        - La pantalla advierte de conexión incorrecta del cable, polaridad inversa, circuitos abiertos y cortocircuitos`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Cámara termográfica",
@@ -96,7 +100,8 @@ const testGears = [
         problemas de humedad y más. Esta es una herramienta imprescindible que puede ayudar a las
         empresas a mejorar significativamente los tiempos de producción y servicio, reduciendo costos
         ocasionados por fallas.`,
-        characteristics: ``
+        characteristics: ``,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Máquina para confección de mufas o terminaciones",
@@ -111,7 +116,8 @@ const testGears = [
         - Quitar / trabajar sobre la pantalla
         - Quitar la semiconductora externa
         - Quitar el aislamiento
-        - Trabajar el aislamiento`
+        - Trabajar el aislamiento`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     },
     {
         name: "Medidor de aislamiento 10 kV",
@@ -125,14 +131,15 @@ const testGears = [
         S1 de Megger los más avanzados en la actualidad.
         La productividad de los instrumentos es un punto central de la nueva serie S1, que ofrece baterías
         de carga rápida y funcionamiento con una fuente de CA cuando la batería está descargada.`,
-        characteristics: `•Compacto y ligero
+        characteristics: `- Compacto y ligero
         - Facilidad de usar
         - Rango de resistencia de hasta 35 TΩ
         - Rechazo de ruido de 8 mA más 4 filtros
         - Seguridad hasta CATIV 1000 V a 4000 m
         - Batería de iones de litio de carga rápida; cumple con IEC62133
         - Funcionan con la batería descargada con una fuente de CA
-        - Diseño resistente con dos carcasas`
+        - Diseño resistente con dos carcasas`,
+        eett: "../../../src/assets/pdfs/PRESENTACIONPARAPAGINAWEB.pdf"
     },
     {
         name: "Telurometro",
@@ -149,28 +156,38 @@ const testGears = [
         - Resistencia de tierra selectiva
         - Resistividad de los terrenos
         - Potencial de tierra
-        - Resistencia de tierra de las torres con el accesorio Pylon box C.A 6474`
+        - Resistencia de tierra de las torres con el accesorio Pylon box C.A 6474`,
+        eett: "../../../src/assets/pdfs/PRESENTACION PARA PAGINA WEB 2.0.pdf"
     }
 ] 
 
 function ServiceFive () {
 
     return (
-        <section>
-            {
-                testGears.map(gear => ( 
-                    <TestGears 
-                    key={gear.name}
-                    name={gear.name}
-                    brand={gear.brand}
-                    model={gear.model}
-                    image={gear.image}
-                    description={gear.description}
-                    characteristics={gear.characteristics}
-                    />
-                ))
-            }
-        </section>
+        <Layout>
+            <h1 className="servicefive__title">Arriendo de Equipos de Pruebas Eléctricas</h1>
+            <p className="servicefive__paragraph">
+                Nuestra empresa comprometida con la importancia de la infraestructura eléctrica brinda un gran conjunto de
+                servicios específicos en el área de pruebas eléctricas a los diferentes equipos instalados en los sistemas eléctricos,
+                entre los cuales podemos destacar entre otros:
+            </p>
+            <section className="servicefive__main__container">
+                {
+                    testGears.map(gear => ( 
+                        <TestGears 
+                        key={gear.name}
+                        name={gear.name}
+                        brand={gear.brand}
+                        model={gear.model}
+                        image={gear.image}
+                        description={gear.description}
+                        characteristics={gear.characteristics}
+                        eett={gear.eett}
+                        />
+                    ))
+                }
+            </section>
+        </Layout>
     )
 }
 

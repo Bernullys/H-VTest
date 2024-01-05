@@ -61,10 +61,6 @@ function ServiceOne () {
                         <li>subestaciones GIS (Aisladas en SF6)</li>
                     </ul>
                 </section>
-                {/* <p>
-                    Nuestra empresa comprometida con dicha infraestructura también ofrece el servicio de pruebas eléctricas a este tipo 
-                    de instalaciones especiales.
-                </p> */}
             </section>
         </Layout>
     )

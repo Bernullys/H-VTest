@@ -382,3 +382,33 @@
     background: #006EDC;
     opacity: 0.9;
 }
+
+/*/////////////////////////////////////*/
+
+.servicefive__title {
+    color: black;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 100px 0 0 0;
+}
+
+.servicefive__main__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicefive__paragraph {
+    margin: 40px 0 40px 0;
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "futuraLtBt";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
